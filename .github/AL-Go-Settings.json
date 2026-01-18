@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
   "useCompilerFolder": false,
   "doNotPublishApps": false,
-  "CurrentSchedule": "0 1 1-7 * 3",
-  "NextMinorSchedule": "0 1 8-14 * 3",
-  "NextMajorSchedule": "0 1 15-21 * 3",
+  "CurrentSchedule": "0 1 1 * *",
+  "NextMinorSchedule": "0 1 10 * *",
+  "NextMajorSchedule": "0 1 20 * *",
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "templateSha": "2b0291277622df06df2856bc05768be2ebb5a6b5"
